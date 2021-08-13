@@ -1,2 +1,2 @@
 # Backend-Study
-https://opentutorials.org/course/743 javascript 공부중
+https://online.codingapple.com/course-status/ studying 
