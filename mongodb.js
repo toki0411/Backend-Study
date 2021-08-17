@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient;
 var db;
 app.set('view engine','ejs');
 
-MongoClient.connect('mongodb+srv://admin:a123456789@cluster0.hi5o8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useUnifiedTopology: true },function(에러,client){
+MongoClient.connect('db주소',{ useUnifiedTopology: true },function(에러,client){
     if(에러) return console.log(에러)
     
     db = client.db('todoapp');
